@@ -1,0 +1,20 @@
+.department__photo {
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    min-height: 411px;
+}
+
+.department__photo h4 {
+    width: max-content;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}

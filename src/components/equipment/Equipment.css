@@ -1,0 +1,26 @@
+.equipment{
+    margin-bottom: 150px;
+}
+.equipment__left img {
+    width: 100%;
+}
+
+.equipment__right {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.equipment__title {
+    margin-bottom: 15px;
+}
+
+.equipment__right p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 150%;
+    color: #393743;
+    margin-bottom: 0;
+}

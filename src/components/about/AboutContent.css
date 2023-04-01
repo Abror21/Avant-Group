@@ -1,0 +1,47 @@
+.about__content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 65px;
+    margin-bottom: 150px;
+}
+
+.about_img1 {
+    transform: translateY(40px);
+    transition: .5s;
+}
+.about_img1:hover{
+    transform: scale(1.2);
+}
+
+.about__content-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.05em;
+    color: #898686;
+    margin-bottom: 30px;
+}
+
+.about__content-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #898686;
+    margin-bottom: 40px;
+}
+
+.about__img2 {
+    transform: translateY(-160px);
+    transition: .5s;
+}
+.about__img2:hover{
+    transform: scale(1.2);
+}
+.about__info-title {
+    max-width: 963px;
+    margin-bottom: 40px;
+}

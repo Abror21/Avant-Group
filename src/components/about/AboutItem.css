@@ -1,0 +1,43 @@
+.about__item {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.13);
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    transition: .3s ease-out;
+}
+.about__item:hover{
+    transform: scale(1.2);
+}
+
+.about__item h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 32px;
+    color: #EE1D2D;
+    margin-bottom: 5px;
+}
+
+.about__item h6 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 32px;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.about__item p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #272324;
+    opacity: 0.5;
+    margin-bottom: 0;
+}

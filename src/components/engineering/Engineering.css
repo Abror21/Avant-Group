@@ -1,0 +1,22 @@
+.engineering{
+    margin-bottom: 150px;
+}
+.engineering .col-sm-6 {
+    display: flex;
+    align-items: center;
+}
+
+.engineering img {
+    width: 100%;
+}
+
+.engineering__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 140%;
+    color: #0C0918;
+}
+.engineering__img2{
+    transform: translateY(-80px);
+}

@@ -1,0 +1,17 @@
+.about {
+    position: relative;
+    padding-top: 150px;
+    margin-bottom: 150px;
+}
+
+.about__bg {
+    position: absolute;
+    top: -232px;
+    left: -165px;
+    z-index: -1;
+}
+
+
+.about__title{
+    margin-bottom: 93px;
+}

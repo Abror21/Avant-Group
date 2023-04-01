@@ -1,0 +1,33 @@
+.intro__info-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-style: normal;
+}
+.intro__info-box *{
+    margin: 0;
+}
+.intro__info-box>img {
+    transform: translateY(-10px);
+}
+
+.intro__info-box-inner h5 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #FF103B;
+}
+
+.intro__info-box-inner h6 {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20.4px;
+    color: #000;
+}
+
+.intro__info-box-inner p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: #898686;
+}
